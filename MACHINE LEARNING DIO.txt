@@ -1,0 +1,139 @@
+MACHINE LEARNING DIO
+
+O que são os modelos de linguagens tradicionais. Evolução dos LLMs?
+- N-GRAMS
+- Modelos lineares
+- Redes Neurais Recorrentes -> RNN
+- LSTM e GRU's -> redes neurais "turbinadas"
+- TRANSFORMER
+
+
+CAMADAS DE ATENÇÃO:
+Cada palavra de uma frase vire 3 vetores diferentes:
+	- Query ===> o que eu estou procurando, qual a informação que eu desejo
+	- Key =====> o que eu tenho para oferecer
+	- Value ===> a informação de fato que eu carrego
+
+"MULTI HEAD ATENTION"
+
+modelo de MEO
+
+
+======================
+ONION IA
+
+1ª Camada EMBEDDINGS (camada vetorial): tradutores de para IA, transformando palavras em números
+2ª Camada GRANDE AÇO (camadas de atenção): responsáveis por ajudar o modelo a enteder onde ela deve olhar
+3ª camada FEEDFORWARD (camada de processamento): é onde as informações são desmenbradas e processadas
+4ª camada NORMALIZAÇÃO (camada de estabilidade): responsável por garantir que os números matemáticos não fiquem exorbitântes
+5ª camada MECANISMO DE SAÍDA: pega cada vetor final produzido pelas camadas acima, envia para uma função chamada "Softmax", que traduz os vetros em probabilidades de palavras. Gerando novamente textos de respostas!
+
+
+Qual camada é responsável pelo processamento local dos tokens, refinando as informações após a atenção?
+R: Feedforward
+
+O que os Embeddings representam em um modelo de linguagem?
+R: Representações vetoriais densas de palavras ou tokens
+
+Em um LLM, o propósito das camadas de atenção é...
+R: Identificar quais partes do texto merecem mais foco contextual
+
+Sem a camada de normalização, as respostas do modelo tendem a ser mais coerentes.
+R: Falso
+
+O mecanismo de saída dos LLMs geralmente utiliza qual função para determinar a próxima palavra?
+R: Softmax
+
+A camada de normalização evita que o modelo...
+R: Fique instável durante o treinamento
+
+
+
+
+===========================================================================================================
+				M A C H I N E      L E A R N I N G
+===========================================================================================================
+
+Introdução ao ML:
+
+Para se obter uma IA é necessário o processo de ML, e. g.:
+	- Por meio do Machine Learning eu posso ensinar o meu sistema, e esta inteligência adiquirida por meio dos treinamentos, é que é obtida a Ineteligência Artificial.
+
+
+
+
+Qual a diferença principal entre uma Rede Neural Artificial (convencional) de uma Deep Learning?
+R: A rede de Deep Learning tem uma maior quantidade de camadas ocultas, gerando uma maior capacidade de aprendizado.
+
+
+Para que o treinamento de uma Rede Neural Artificial aconteça, é necessário em suas entradas:
+R: Um Dataset com várias amostras para treinamento.
+
+Qual o resultado gerado após o treinamento de uma Rede Neural Artificial?
+R: Geração de um arquivo de pesos que corresponde ao aprendizado obtido.
+
+O que é o Overfitting?
+R: Seria quando um modelo estatístico se ajusta muito bem ao conjunto de dados anteriormente observado, mas se mostra ineficaz para prever novos resultados.
+
+
+
+
+===========================================================================================================
+	M A C H I N E      L E A R N I N G   -   A L G O R I T M O S      G E N É T I C O S
+===========================================================================================================
+
+LINKS PARA PESQUISA:
+
+- https://www.youtube.com/watch?v=P7XHzqZjXQs
+- https://www.youtube.com/watch?v=pgaEE27nsQw
+
+
+Qual a finalidade da função fitness?
+R: Selecionar os melhores elementos da população.
+
+Qual o principal objetivo em gerar uma população inicial no Algoritmo Genético
+R: Criar um universo de possibilidades iniciais para o processamento da solução otimizada.
+
+Qual a necessidade de realizar uma recombinação?
+R: Combinar os melhores resultados da população inicial.
+
+Qual a finalidade da função de mutação?
+R: Evitar a convergência prematura dos dados.
+
+
+
+
+
+
+===========================================================================================================
+  M A C H I N E   L E A R N I N G   -   SVM (M Á Q U I N A S    D E   V E T O R E S   D E   S U P O R T E)
+===========================================================================================================
+
+O que seria um Outlier em uma SVM?
+R: Valor atípico, é uma observação que apresenta um grande afastamento das demais da série.
+
+O que seria um valor de Overfit em uma SVM?
+R: Um cenário de overfitting ocorre quando, nos dados de treino, o modelo tem um desempenho excelente, porém quando utilizamos os dados de teste o resultado é ruim.
+
+Qual a função do hiperplano em uma SVM?
+R: Diferenciar muito bem as classes.
+
+Qual a principal diferença entre uma RNA e uma SVM?
+R: A SVM busca a otimização das margens do hiperplano e a RNA busca o mínimo global para a redução do erro no treinamento.
+
+
+
+
+
+===========================================================================================================
+  			    M A C H I N E   L E A R N I N G   -   D A T A S E T S
+===========================================================================================================
+
+Atividade Proposta: Criando um Dataset para treinamento de um algoritmo de Inteligência Artificial
+Neste projeto deve ser criada uma base de dados (dataset) para o treinamento de um algoritmo baseado em Redes Neurais Artificiais. Para essa tarefa será necessário criar ao menos duas classes de objetos com no mínimo 100 imagens para cada uma delas. Esse dataset servirá como base para os projetos desenvolvidos ao longo de toda a trilha, em diferentes projetos.  
+
+Como exemplo podemos observar o exemplo a seguir, onde temos duas classes, uma representando o tomate verde (Figura – a) e outra representando o tomate maduro (Figura – b). Mas você pode criar uma base com a face de seus familiares, animais de estimação ou até mesmo estrelas do cinema. Estas imagens podem ser tiradas por meio de uma câmera fotográfica ou baixadas na internet, desde que tenham uma qualidade boa (no mínimo 400x400 pixels).
+
+
+
+Figura: Classes de objetos para treinamento de um classificador de imagens: (a) Tomates Verdes e (b) Tomates Maduros. 
