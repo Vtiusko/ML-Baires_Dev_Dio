@@ -1,0 +1,27 @@
+================================================================================================
+			Linguagens de Programação para Machine Learning
+================================================================================================
+
+
+Qual a base para o paradigma de programação orientado a objetos?
+R: A programação orientada a objetos é um modelo de programação onde diversas classes
+possuem características que definem um objeto na vida real.
+
+Qual a base para o paradigma de programação funcional?
+R: Programação funcional é o processo de construir software através de composição de funções
+puras, evitando compartilhamento de estados, dados mutáveis e efeitos colaterais.
+
+
+Qual a base para o paradigma de programação lógica?
+R: Programação lógica é um paradigma de programação que faz uso da lógica matemática.
+
+
+O que define um paradigma de programação?
+R: É um meio de se classificar as linguagens de programação baseado em suas funcionalidades.
+
+
+
+
+================================================================================================
+				Introdução ao Python para ML
+================================================================================================
