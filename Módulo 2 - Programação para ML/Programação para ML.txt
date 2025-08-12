@@ -25,3 +25,54 @@ R: É um meio de se classificar as linguagens de programação baseado em suas f
 ================================================================================================
 				Introdução ao Python para ML
 ================================================================================================
+
+Bibliotecas:
+- Matplotlib
+- Torch
+- Torchvision
+- Numpy
+
+https://keras.io/api/applications/
+copiar as camadas da rede "InceptionV3"
+
+
+Exercícios:
+https://www.huicode.com.br/2020/09/ler-um-valor-inteiro-aceitar-somente.html 
+
+
+
+Qual a funcionalidade das bibliotecas em Python?
+R: Bibliotecas são coleções de módulos de script para simplificar o processo de
+programação e remover a necessidade de reescrever os comandos mais usados
+
+Qual a base para a linguagem Python?
+R: Python é uma linguagem de programação de alto nível, interpretada de script, imperativa,
+orientada a objetos, funcional, de tipagem dinâmica e forte.
+
+Um exemplo muito comum para estruturas de repetição em Python é relacionado com:
+R: As épocas de treinamento, onde o número de iterações é pré-definido no algoritmo de treinamento.
+
+Quais as principais vantagens de se utilizar uma ferramenta de programação online do tipo COLAB?
+R: Não é necessário ter um hardware potente e não é preciso instalar bibliotecas e dependências, salvando seu projeto sempre em nuvem.
+
+
+
+
+
+================================================================================================
+					  S C I L A B
+================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
