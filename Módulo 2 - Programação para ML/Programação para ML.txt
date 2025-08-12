@@ -63,16 +63,79 @@ R: Não é necessário ter um hardware potente e não é preciso instalar biblio
 					  S C I L A B
 ================================================================================================
 
+Scilab para Machine Learning
+
+O módulo de Processamento de Imagens do Scilab é focado principalmente em:
+R: Realizar pré-processamento para algoritmos de processamento de imagens mais elaborados.
+
+O que é a ferramenta Scilab?
+R: O Scilab é um software científico para computação numérica semelhante ao MATLAB.
+
+As toolbox do Scilab tem a função principal de...
+R: Realizar processamento voltado para um determinado tipo de problema, com funções prontas disponíveis.
+
+A ferramenta Scilab trabalha com um ambiente de programação:
+R: Multiparadigma
 
 
 
 
 
+================================================================================================
+					     R
+================================================================================================
+
+R para Machine Learning
+
+Quais as principais aplicações para a linguagem R?
+R: A linguagem R é largamente usada entre estatísticos e data miners para desenvolver software de estatística e análise de dados.
+
+Qual o valor de saída para quando aplicamos a função median(x) sobre o vetor x <- c(1,7,4,4.2,19,2,20,-21,48,-4)?
+R: 4.1
+
+Qual a saída para a função: ((20 + 7)/3)^2?
+R: 81
+
+Qual a saída para a função: ((20 + 2)/3)^3?
+R: 394.3704
+
+
+
+
+================================================================================================
+			F R A M E W O R K S   P A R A   M L
+================================================================================================
+
+Qual a maior vantagem de trabalhar com Anaconda?
+R: Criar ambientes independentes para o trabalho com ML. Sobretudo, seu intuito é facilitar toda a instalação dos pacotes necessários.
+
+Qual a função da biblioteca SciPy?
+R: Disponibiliza muitas funcionalidades de computação científica implementadas de forma eficiente, incluindo integração numérica, interpolação, otimização, álgebra linear e Estatística.
+
+O que é o TensorFlow?
+R: Ele tem um ecossistema abrangente e flexível de ferramentas, bibliotecas e recursos da comunidade.
 
 
 
 
 
+================================================================================================
+				G O O G L E   C O L A B
+================================================================================================
+
+- Transfer Learning
+
+Um algoritmo de transfer learning, desenvolvido no COLAB, tem como maior objetivo:
+R: Reaproveitar um treinamento passado, otimizando custo computacional. Também aproveitando filtros treinados previamente para outras classes.
+
+Quais as principais vantagens do COLAB?
+R: É um serviço de armazenamento em nuvem de notebooks voltados à criação e execução de códigos em Python, diretamente em um navegador.
+
+Qual a finalidade de utilizar GPUs para o treinamento de redes neurais.
+R: Utilizar seu processamento para o treinamento de um modelo de forma dedicada.
+
+O Github possibilita principalmente:
+R: Compartilhamento de código e projetos com outros desenvolvedores e cientistas.
 
 
 
